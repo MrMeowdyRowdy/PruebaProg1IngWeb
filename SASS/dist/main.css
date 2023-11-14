@@ -175,7 +175,7 @@
 }
 
 .footerbg {
-  width: auto;
+  width: 100%;
   height: auto;
   position: absolute;
   z-index: -1;

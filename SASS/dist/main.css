@@ -147,3 +147,17 @@
   left: 20%;
   width: 60%;
 }
+
+.contcaracteristicas {
+  display: flex;
+  justify-content: center;
+}
+
+.contcenidoaracteristicas {
+  justify-content: center;
+}
+
+.svgcenter {
+  display: block;
+  margin: auto;
+}

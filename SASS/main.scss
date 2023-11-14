@@ -137,11 +137,11 @@ $pcolor: #9EABB2;
     width: 60%;
 }
 
-.contenidoimagen{
+.contenidoimagen {
     padding: 0% 20%;
 }
 
-.parrafoimagen{
+.parrafoimagen {
     color: $pcolor;
     font-weight: $nweight;
     font-size: 1rem;
@@ -149,9 +149,24 @@ $pcolor: #9EABB2;
     line-height: 1.875rem;
     text-align: left;
 }
-.imagen{
-position: relative;
-left: 20%;
-width: 60%;
 
+.imagen {
+    position: relative;
+    left: 20%;
+    width: 60%;
+}
+
+.contcaracteristicas{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contcenidoaracteristicas{
+    justify-content: center;
+}
+
+.svgcenter{
+    display: block;
+    margin: auto;
 }

@@ -3,7 +3,7 @@
 }
 
 .contentcontainer {
-  width: 100%;
+  width: auto;
   height: auto;
   padding: 0%;
   margin: 0%;
@@ -17,7 +17,7 @@
   position: absolute;
   top: 0%;
   z-index: -1;
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
@@ -175,8 +175,21 @@
 }
 
 .footerbg {
-  width: 100%;
+  width: auto;
   height: auto;
   position: absolute;
   z-index: -1;
+}
+
+@media only screen and (max-width: 1079px) {
+  /* For mobile phones: */
+  .contenido, .ratingscontainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .texto {
+    display: left;
+    margin: 0% 10%;
+  }
 }

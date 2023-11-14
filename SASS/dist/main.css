@@ -149,15 +149,19 @@
 }
 
 .contcaracteristicas {
+  justify-content: center;
   display: flex;
-  justify-content: center;
-}
-
-.contcenidoaracteristicas {
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10%;
 }
 
 .svgcenter {
   display: block;
   margin: auto;
+}
+
+.desccaracteristicas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

@@ -1,0 +1,103 @@
+$ffamily: 'Bai Jamjuree',
+sans-serif;
+$hweight: 600;
+$nweight: 400;
+$titlecolor: #4C545C;
+$pcolor: #9EABB2;
+
+* {
+    box-sizing: border-box;
+}
+
+
+.contentcontainer {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.bgheader {
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.contenido {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 27.5%;
+    gap: 20px;
+}
+
+.texto {
+    display: block;
+    margin: auto;
+    font-family: $ffamily;
+    text-align: center;
+}
+
+.titulo {
+    color: $titlecolor;
+    font-weight: $hweight;
+    font-size: 2.875rem;
+    letter-spacing: -0.04688rem;
+}
+
+.parrafo {
+    color: $pcolor;
+    font-weight: $nweight;
+    font-size: 1.25rem;
+    letter-spacing: 0.00938rem;
+    line-height: 1.875rem;
+}
+
+.tboton {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: $hweight;
+    line-height: 1.875rem;
+    letter-spacing: 0.03125rem;
+    padding: 5% 0%;
+}
+
+.buttoncontainer {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0% 30%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 1.75rem;
+    width: 40%;
+    height: auto;
+    border: none;
+}
+
+.botonverde {
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.botonmorado {
+    background: #6174FF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}

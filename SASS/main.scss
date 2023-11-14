@@ -200,7 +200,7 @@ $pcolor: #9EABB2;
 
 @media only screen and (max-width: 1080px) {
     /* For mobile phones: */
-    .contenido, .ratingscontainer {
+    .contenido {
       width: 100%;
       text-align: center;
       padding: 0% 7.5%;
@@ -252,9 +252,10 @@ $pcolor: #9EABB2;
     }
     .contcaracteristicas{
         flex-direction: column;
-    }
-    .contcaracteristicas{
+        justify-content: center;
         gap: 30px;
+        align-items: center;
+        
     }
     .desccaracteristicas{
         max-width: 100%;

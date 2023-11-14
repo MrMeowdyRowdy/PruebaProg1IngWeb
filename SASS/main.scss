@@ -161,7 +161,8 @@ $pcolor: #9EABB2;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 2%;
+    align-items: start;
 }
 
 .svgcenter{
@@ -173,4 +174,9 @@ $pcolor: #9EABB2;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 30%;
+}
+
+.textocaracteristicas{
+    width: 80%;
 }

@@ -126,7 +126,7 @@
 .imagenpc {
   position: relative;
   left: -5%;
-  width: 60%;
+  width: 100%;
 }
 
 .contenidoimagen {
@@ -141,6 +141,7 @@
   line-height: 1.875rem;
   text-align: left;
   margin: auto 0%;
+  margin-right: 30%;
 }
 
 .imagen {
@@ -171,4 +172,11 @@
 
 .textocaracteristicas {
   width: 80%;
+}
+
+.footerbg {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
 }

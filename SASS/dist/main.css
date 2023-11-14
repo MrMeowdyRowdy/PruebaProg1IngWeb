@@ -181,15 +181,97 @@
   z-index: -1;
 }
 
-@media only screen and (max-width: 1079px) {
+.contenedorlogos {
+  float: left;
+  width: 100%;
+  display: flex;
+  gap: 7%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 720px) {
   /* For mobile phones: */
   .contenido, .ratingscontainer {
     width: 100%;
     text-align: center;
+    padding: 0% 7.5%;
   }
 
-  .texto {
-    display: left;
+  .titulo {
+    font-size: 2rem;
+  }
+
+  .titulo2 {
+    font-size: 1.75rem;
+  }
+
+  .titulo3 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .parrafo {
+    font-size: 1rem;
+    padding: 0% 0.5%;
+  }
+
+  .buttoncontainer {
+    flex-direction: column;
+    padding: 0% 10%;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .contenedorimagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .imagenpc {
+    position: relative;
+    width: 80%;
     margin: 0% 10%;
+    left: 0%;
+  }
+
+  .divisor {
+    height: 50px;
+  }
+
+  .contenidoimagen {
+    padding: 0% 10%;
+  }
+
+  .parrafoimagen {
+    text-align: center;
+    margin-right: 0%;
+  }
+
+  .contcaracteristicas {
+    flex-direction: column;
+  }
+
+  .contcaracteristicas {
+    gap: 30px;
+  }
+
+  .desccaracteristicas {
+    max-width: 100%;
+  }
+
+  .imagen {
+    width: 80%;
+    left: 0%;
+    margin: 0% 10%;
+  }
+
+  .contenedorlogos {
+    flex-direction: column;
+    gap: 50px;
   }
 }

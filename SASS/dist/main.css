@@ -175,11 +175,11 @@
 }
 
 .footerbg {
-  background-image: url("/images/logo.svg");
-  background-color: #9EABB2;
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  background-color: #dee5e9;
+  padding: 2% 10%;
+  gap: 10%;
+  align-items: center;
 }
 
 .contenedorlogos {
@@ -193,9 +193,28 @@
 
 .footerlogo {
   float: left;
-  width: 10%;
-  padding-left: 5%;
-  padding-top: 2.5%;
+  width: 5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50% 50%;
+  column-gap: 2%;
+  row-gap: 10px;
+}
+
+.footertext {
+  color: #4C545C;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: 0.00844rem;
+  text-align: left;
+}
+
+.socials {
+  padding-left: 35%;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -280,5 +299,27 @@
   .contenedorlogos {
     flex-direction: column;
     gap: 50px;
+  }
+
+  .footerbg {
+    flex-direction: column;
+    padding: 10% 0;
+    gap: 50px;
+  }
+
+  .grid-container {
+    grid-template-columns: auto;
+  }
+
+  .footerlogo {
+    width: 13%;
+  }
+
+  .footertext {
+    text-align: center;
+  }
+
+  .socials {
+    padding-left: 0;
   }
 }

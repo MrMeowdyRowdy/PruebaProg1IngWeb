@@ -175,10 +175,11 @@
 }
 
 .footerbg {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  z-index: -1;
+  background-image: url("/images/logo.svg");
+  background-color: #9EABB2;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contenedorlogos {
@@ -188,6 +189,13 @@
   gap: 7%;
   justify-content: center;
   align-items: center;
+}
+
+.footerlogo {
+  float: left;
+  width: 10%;
+  padding-left: 5%;
+  padding-top: 2.5%;
 }
 
 @media only screen and (max-width: 1080px) {

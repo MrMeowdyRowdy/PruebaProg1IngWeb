@@ -211,6 +211,11 @@ $pcolor: #9EABB2;
     row-gap: 10px;
 }
 
+.botonverde:hover,
+.botonmorado:hover {
+    opacity: 0.7;
+}
+
 .footertext {
     color: #4C545C;
     font-size: 1.125rem;
@@ -221,9 +226,36 @@ $pcolor: #9EABB2;
     text-align: left;
 }
 
-.socials {
-    padding-left: 35%
+.footertext:hover {
+    color: #26BBA4;
 }
+
+.icons{
+    height: 24;
+    width: 24;
+}
+
+.icons:hover {
+    fill: #26BBA4;
+}
+
+.footertext:hover,
+.botonmorado:hover,
+.botonverde:hover,
+.icons:hover {
+    cursor: pointer;
+}
+
+
+.socials {
+
+    display: flex;
+    gap: 10px;
+    margin-left: 30%;
+    align-items: center;
+}
+
+
 
 @media only screen and (max-width: 1080px) {
 

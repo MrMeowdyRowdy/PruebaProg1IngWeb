@@ -225,9 +225,10 @@
 .icons {
   height: 24;
   width: 24;
+  fill: #4C545C;
 }
 
-.icons:hover {
+.icons:hover svg {
   fill: #26BBA4;
 }
 
@@ -240,8 +241,8 @@
 
 .socials {
   display: flex;
-  gap: 10px;
-  margin-left: 30%;
+  gap: 20px;
+  margin-left: 35%;
   align-items: center;
 }
 

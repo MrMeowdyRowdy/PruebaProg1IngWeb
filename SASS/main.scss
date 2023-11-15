@@ -221,7 +221,7 @@ $pcolor: #9EABB2;
     text-align: left;
 }
 
-.socials{
+.socials {
     padding-left: 35%
 }
 
@@ -311,21 +311,26 @@ $pcolor: #9EABB2;
         flex-direction: column;
         gap: 50px;
     }
-    .footerbg{
+
+    .footerbg {
         flex-direction: column;
         padding: 10% 0;
         gap: 50px;
     }
-    .grid-container{
+
+    .grid-container {
         grid-template-columns: auto;
     }
-    .footerlogo{
+
+    .footerlogo {
         width: 13%;
     }
-    .footertext{
+
+    .footertext {
         text-align: center;
     }
-    .socials{
+
+    .socials {
         padding-left: 0;
     }
 }

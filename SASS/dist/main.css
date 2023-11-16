@@ -254,6 +254,10 @@
     padding: 0% 7.5%;
   }
 
+  .logo {
+    padding-top: 20%;
+  }
+
   .titulo {
     font-size: 2rem;
   }

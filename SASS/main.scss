@@ -257,14 +257,23 @@ $pcolor: #9EABB2;
 
 
 
+
+
 @media only screen and (max-width: 1080px) {
 
     /* For mobile phones: */
+
+
     .contenido {
         width: 100%;
         text-align: center;
         padding: 0% 7.5%;
     }
+
+    .logo{
+        padding-top: 20%;
+    }
+        
 
     .titulo {
         font-size: 2rem;
@@ -367,4 +376,5 @@ $pcolor: #9EABB2;
         padding-left: 0;
         margin: 0;
     }
+
 }
